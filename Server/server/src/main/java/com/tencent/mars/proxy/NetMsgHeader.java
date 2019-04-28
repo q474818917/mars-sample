@@ -25,10 +25,10 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * protobuf的编解码器
+ * 编解码器
  * 协议头：headLength(4), clientVersion(4), cmdId(4), seq(4), bodyLen(4)
  *  +
- * 协议body
+ * 协议body：协议体，protobuf实现的
  * Created by zhaoyuan on 16/2/2.
  */
 public class NetMsgHeader {
